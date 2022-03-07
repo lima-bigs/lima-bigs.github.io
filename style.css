@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(126, 153, 81);
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
+.Habilid-1{
+    font-size:16px;
+}
+.Habilid-2{
+    font-size:18px;
+}
+.Habilid-3{
+    font-size:20px;
+}
+.Habilid-4{
+    font-size:22px;
+}
+.meu-nome{
+    text-align: center;
+}
+.minha-foto{
+    max-width: 400px;
+    width: 50%;
+    border: solid 20px rgb(76, 107, 21);
+    border-radius: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.minha-descricao{
+    font-style:italic;
+}
+.foto-container{
+    height: 400px;
+    position: relative;
+}
+#Quem_sou{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    padding: 0 0 0 10px;
+}
+.nav{
+    margin-top: 20px;
+}
+#Habilidades{
+    margin-top: 60px;
+}
+#Interesses{
+    margin-top: 60px;
+}
+.Resumindo{
+    margin-top: 60px;
+}
