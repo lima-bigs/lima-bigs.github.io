@@ -1,92 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lima Júnior</title>
-    <style>
-        body{
-            font-family:'Courier New', Courier, monospace;
-            background-color: rgb(126, 153, 81);
-        }
-        h1{
-            font-family:'Courier New', Courier, monospace;
-        }
-        #Descricao{
-            font-style:italic;
-        }
-        .Habilid-1{
-            font-size:16px;
-        }
-        .Habilid-2{
-            font-size:18px;
-        }
-        .Habilid-3{
-            font-size:20px;
-        }
-        .Habilid-4{
-            font-size:22px;
-        }
-        img{
-            border-radius: 30%;
-        }
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Carlos Alberto Souza Lima Júnior</h1>
-  <br>
-  <p id="foto">
-  <img src="IMG-20220112-WA0018 (2).jpg" alt="Foto de Carlos Alberto Souza Lima Júnior" width="400px"></p>
-<ul>
-    <li><a href="#Quem_sou">Quem sou</a></li>
-    <li><a href="#Habilidades">Habilidades</a></li>
-    <li><a href="#Interesses">Interesses</a></li>
-</ul>
-<br>
-<br>
-<br>
-<br>
 
-  <p id="Quem_sou">
-    <h3 id="Descricao">Sou brasileiro
-    <br>
-    Nasci em Juiz de Fora - MG
-    <br>
-    Atualmente resido em Tremembé - SP
-    <br>
-    Possuo formação como técnico em Eletrônica e Engenharia Ambiental e Sanitária
-</h3></p>
-<br>
-<br>
-<br>
-<br>
-<p id="Habilidades">
-<h3>Minhas principais habilidades são: </h3>
-<ul>
-    <em>
-    <li class="Habilid-1">Comunicativo</li>
-    <li class="Habilid-2">Curioso</li>
-    <li class="Habilid-3">Criativo</li>
-    <li class="Habilid-4"><strong>Raciocínio rápido</strong></li>
-    </em>
-</ul></p>
-<br>
-<br>
-<br>
-<p id="Interesses">
-<h3>Estes são alguns canais do YouTube que acompanho.<br>Eles servem de referência a respeito dos meus interesses. </h3>
-<ul>
-    <li><a href="https://www.youtube.com/c/Bourbonmothdecor" target="_blank">Marcenaria</a></li>
-    <li><a href="https://www.youtube.com/c/CanalMotorama" target="_blank">Motociclismo</a></li>
-    <li><a href="https://www.youtube.com/c/AtividadeMakerOficial" target="_blank">Universo Maker</a></li>
-    <li><a href="https://www.youtube.com/c/UrsonaEstrada" target="_blank">Caravanismo e Campismo</a></li>
-    <li><a href="https://www.youtube.com/c/ThiagoNigro" target="_blank">Mercado Finaceiro</a></li>
-</ul></p>
-<br>
-<h4>Resumindo em poucas palavras, este sou eu.</h4>
-<a href="#foto">Minha foto</a>
+<body>
+
+    <header class="meu-nome">
+        <h1>Carlos Alberto Souza Lima Júnior</h1>
+    </header>
+    <main>
+        <div class="foto-container">
+            <section id="foto">
+                <img class="minha-foto" src="IMG-20220112-WA0018 (2).jpg"
+                    alt="Foto de Carlos Alberto Souza Lima Júnior">
+            </section>
+            <section id="Quem_sou">
+                <h3 class="minha-descricao">Sou brasileiro<br>Nasci em Juiz de Fora - MG<br>Atualmente
+                    resido em Tremembé - SP<br>Possuo formação como técnico em Eletrônica e Engenharia Ambiental e
+                    Sanitária
+                </h3>
+            </section>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#Quem_sou">Quem sou</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Interesses">Interesses</a></li>
+            </ul>
+        </nav>
+        <section id="Habilidades">
+            <h3>Minhas principais habilidades são: </h3>
+            <ul>
+                <em>
+                    <li class="Habilid-1">Comunicativo</li>
+                    <li class="Habilid-2">Curioso</li>
+                    <li class="Habilid-3">Criativo</li>
+                    <li class="Habilid-4"><strong>Raciocínio rápido</strong></li>
+                </em>
+            </ul>
+        </section>
+        <section id="Interesses">
+            <h3>Estes são alguns canais do YouTube que acompanho. Eles servem de referência a respeito dos meus
+                interesses.
+            </h3>
+            <ul>
+                <li><a href="https://www.youtube.com/c/Bourbonmothdecor" target="_blank">Marcenaria</a></li>
+                <li><a href="https://www.youtube.com/c/CanalMotorama" target="_blank">Motociclismo</a></li>
+                <li><a href="https://www.youtube.com/c/AtividadeMakerOficial" target="_blank">Universo Maker</a></li>
+                <li><a href="https://www.youtube.com/c/UrsonaEstrada" target="_blank">Caravanismo e Campismo</a></li>
+                <li><a href="https://www.youtube.com/c/ThiagoNigro" target="_blank">Mercado Finaceiro</a></li>
+            </ul>
+        </section>
+        <section class="Resumindo">
+            <h4>Resumindo em poucas palavras, este sou eu.</h4>
+            <a href="#foto">Minha foto</a>
+        </section>
+    </main>
 </body>
+
 </html>
